@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+venv312/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+
+# Build outputs
+web/dist/
+web/build/
+*.map
+
+# Uploads (user-uploaded receipts - keep directory structure)
+backend/uploads/*
+!backend/uploads/.gitkeep
+!backend/uploads/test_*.jpg
+!backend/uploads/test_*.jpeg
+!backend/uploads/test_*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
+
+# Test images (keep test images, ignore uploaded ones)
+# tests/ directory is kept for test images
+
+# PaddleOCR models cache
+.paddlex/
+.paddleocr/
+
+# Ollama models (if stored locally)
+.ollama/
